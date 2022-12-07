@@ -50,8 +50,7 @@ export default {
       })
 
       .catch ( err => {
-        let msg = err.response.data.join(',')
-        alert('Errer a dding students\n', + msg)
+        alert('Error adding student. Star Id must be unique')
       })
 
       

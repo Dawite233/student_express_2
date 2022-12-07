@@ -4,16 +4,10 @@
         "dialect": "sqlite"
     },
     "production": {
-        "username": "YOUR_USERNAME",
-        "host": "YOUT_DATABASE_SERVER.database.windows.net",
-        "database": "YOUR_DATABASE",
-        "dialect": "mssql",
-        "ssl": true,
-        "dialectOption": {
-            "ssl": {
-                "require": true,
-                "rejectUnauthorized": false
-            }
-        }
+        "username": "dawite",
+        "host": "student-sign-in-database-server-clara.windows.net",
+        "database": "student-sign-in-database",
+        "dialect": "mssql"
+      
     }
 }
